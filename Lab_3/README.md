@@ -52,7 +52,9 @@ int main() {
             }
         }
     }
-
+    printf("MIN index: %d\n", min_index);
+    printf("MAX index: %d\n", max_index);
+    printf("SUM index: %d\n", sum);
     printf("Result: ");
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
